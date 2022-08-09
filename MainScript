@@ -109,7 +109,7 @@ local SettingsTab = MainWindow:MakeTab({
 Tab:AddButton({
 	Name = "Re-Execute",
 	Callback = function()
-      		print("button pressed")
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/DriftHubplus/main/MainScript", true))()
   	end    
 })
 
