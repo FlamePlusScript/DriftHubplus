@@ -103,6 +103,13 @@ MainTab:AddButton({
   	end    
 })
 
+MainTab:AddButton({
+	Name = "Gas Station Simulator",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Candiceissus/gas-station-simulator/main/Gas%20station%20simulator",true)) ()
+  	end    
+})
+
 -- Setings tab --
 
 local SettingsTab = MainWindow:MakeTab({
