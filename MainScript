@@ -1,5 +1,3 @@
-
-
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
 -- starting notications --
@@ -106,11 +104,11 @@ local SettingsTab = MainWindow:MakeTab({
 	PremiumOnly = false
 })
 
-Tab:AddButton({
+SettingsTab:AddButton({
 	Name = "Re-Execute",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/DriftHubplus/main/MainScript", true))()
   	end    
 })
 
-SettingsTabTab:AddParagraph("Settings","New settings will be added soon with the update of keybinds and Drift Admin")
+SettingsTab:AddParagraph("Settings","New settings will be added soon with the update of keybinds and Drift Admin.")
