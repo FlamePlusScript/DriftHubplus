@@ -42,7 +42,7 @@ MainTab:AddLabel("Translators")
 MainTab:AddButton({
 	Name = "Google Translate",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/ynmPAxZS"))();
+      		loadstring(game:HttpGet("https://pastebin.com/raw/7fEXTbBT"))();
   	end    
 })
 
@@ -67,6 +67,13 @@ MainTab:AddButton({
 -- Game Mods --
 
 MainTab:AddLabel("Game Mods")
+
+MainTab:AddButton({
+	Name = "Driving Empire",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://pastebin.com/raw/SfBiqAUE", true))()
+  	end    
+})
 
 MainTab:AddButton({
 	Name = "Murder Mystery 2",
@@ -108,6 +115,13 @@ SettingsTab:AddButton({
 	Name = "Re-Execute",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamePlusScript/DriftHubplus/main/MainScript", true))()
+  	end    
+})
+
+SettingsTab:AddButton({
+	Name = "Old Drift Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/ynmPAxZS", true))()
   	end    
 })
 
