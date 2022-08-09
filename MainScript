@@ -121,7 +121,7 @@ SettingsTab:AddButton({
 SettingsTab:AddButton({
 	Name = "Old Drift Hub",
 	Callback = function()
-      		loadstring(game:HttpGet("https://pastebin.com/raw/ynmPAxZS"))()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/PBWKQieP"))()
   	end    
 })
 
