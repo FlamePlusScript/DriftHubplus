@@ -126,3 +126,5 @@ SettingsTab:AddButton({
 })
 
 SettingsTab:AddParagraph("Settings","New settings will be added soon with the update of keybinds and Drift Admin.")
+
+OrionLib:Init()
