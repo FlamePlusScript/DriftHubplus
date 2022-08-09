@@ -1,0 +1,116 @@
+
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+-- starting notications --
+
+OrionLib:MakeNotification({
+	Name = "Drift Hub+",
+	Content = "Drift Hub+ has been executed",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+-- config save --
+
+local MainWindow = OrionLib:MakeWindow({Name = "Drift Hub+", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionFolder"})
+
+-- Info Tab --
+
+local InfoTab = MainWindow:MakeTab({
+	Name = "Info",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+InfoTab:AddParagraph("Version","Drift Hub version 1.6")
+InfoTab:AddParagraph("Credits","Flame+ (Creator), Rifleman (Tester)")
+InfoTab:AddParagraph("Discord","https://discord.gg/DMvpVBVrea")
+InfoTab:AddParagraph("Updates","Auto Open Script on some games. (COMING SOONS), Keybinds for Fly and No-Clip, as well as Auto Open scripts for all games, and custom script made for Drift Hub+")
+InfoTab:AddParagraph("Supported Games","All supported games are inside of the Discord there it lists what script to use to find that needed script.")
+
+-- Main Scripts --
+
+local MainTab = MainWindow:MakeTab({
+	Name = "Main Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+-- Translator --
+
+MainTab:AddLabel("Translators")
+
+MainTab:AddButton({
+	Name = "Google Translate",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/ynmPAxZS"))();
+  	end    
+})
+
+-- Admin scripts --
+
+MainTab:AddLabel("Admin Scripts")
+
+MainTab:AddButton({
+	Name = "Infinate Yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/uDMzwYvb"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+  	end    
+})
+
+-- Game Mods --
+
+MainTab:AddLabel("Game Mods")
+
+MainTab:AddButton({
+	Name = "Murder Mystery 2",
+	Callback = function()
+      		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "BloxFruits",
+	Callback = function()
+      		     loadstring(game:HttpGet("https://raw.githubusercontent.com/CheeseyMine/CheeseyHub/main/CheeseyHub2V"))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Da Hood",
+	Callback = function()
+      		     loadstring(game:HttpGet("https://raw.githubusercontent.com/whoiscapslock/capslock/main/main", true))()
+  	end    
+})
+
+MainTab:AddButton({
+	Name = "Bedwars",
+	Callback = function()
+      		         loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+  	end    
+})
+
+-- Setings tab --
+
+local SettingsTab = MainWindow:MakeTab({
+	Name = "Settings",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddButton({
+	Name = "Re-Execute",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+
+SettingsTabTab:AddParagraph("Settings","New settings will be added soon with the update of keybinds and Drift Admin")
