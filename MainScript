@@ -23,9 +23,9 @@ local InfoTab = MainWindow:MakeTab({
 	PremiumOnly = false
 })
 
-InfoTab:AddParagraph("Version","Drift Hub version 1.6")
-InfoTab:AddParagraph("Credits","Flame+ (Creator), Rifleman (Tester)")
-InfoTab:AddParagraph("Discord","https://discord.gg/DMvpVBVrea")
+InfoTab:AddParagraph("Version","Drift Hub version 1.7")
+InfoTab:AddParagraph("Credits","Flamethecreator (Creator), Rifleman (Tester)")
+InfoTab:AddParagraph("Discord","Coming in the future")
 InfoTab:AddParagraph("Updates","Auto Open Script on some games. (COMING SOONS), Keybinds for Fly and No-Clip, as well as Auto Open scripts for all games, and custom script made for Drift Hub+")
 InfoTab:AddParagraph("Supported Games","All supported games are inside of the Discord there it lists what script to use to find that needed script.")
 
